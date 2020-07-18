@@ -1,4 +1,4 @@
-baseurl = "https://zhijiahu.sg/"
+baseurl = "https://zhijiahu.netlify.app/"
 languageCode = "en-US"
 title = "Zhijia Hu"
 # Enable comments by entering your Disqus shortname
