@@ -1,0 +1,40 @@
+baseurl = "https://zhijiahu.sg/"
+languageCode = "en-US"
+title = "Zhijia Hu"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "profile.png"
+  author = "Zhijia Hu"
+  description = "Hello"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "zhijiahu"
+  Email         = "z.jia.hu@gmail.com"
+  Twitter       = "zjiahu"
+  LinkedIn      = "zhijiahu"
+  Medium        = "zhijiahu"
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "https://blog.zhijiahu.sg/"
+
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"

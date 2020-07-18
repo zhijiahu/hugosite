@@ -1,0 +1,5 @@
+name: Projects
+source:
+  - icon: fa fa-github
+    name: pibots
+    description: A self driving GoPiGo3 car navigating with a Raspberry Pi K3s cluster

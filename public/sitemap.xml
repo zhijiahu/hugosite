@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://zhijiahu.sg/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zhijiahu.sg/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zhijiahu.sg/tags/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zhijiahu.sg/categories/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zhijiahu.sg/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zhijiahu.sg/</loc>
+  </url>
+  
+</urlset>

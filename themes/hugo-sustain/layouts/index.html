@@ -1,0 +1,22 @@
+{{ partial "head" . }}
+  <body>
+    <div id="wrap">
+      {{ partial "header" . }}
+      <section id="about">
+        <div class="container">
+        <div class="avatar">
+          <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Responsive image">
+        </div>
+        <h3>I'm <strong>{{ .Site.Params.author }}</strong></h3>
+
+        <br>
+        <h4>Coder @ Singapore</h4>
+        <h4>I'm learning <a href="https://www.pyimagesearch.com/">Computer Vision with Deep Learning</a>...having fun with my self driving robot car.</h4>
+        <h4>Happy to have a blog running on a Kubernetes (<a href="https://k3s.io/">K3s</a>) cluster of Raspberry Pi computers, in my room.</h4>
+        {{ partial "social.html" . }}
+        </div>
+      </section>
+    </div>
+    {{ partial "footer" . }}
+  </body>
+</html>
