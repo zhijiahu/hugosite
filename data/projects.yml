@@ -2,4 +2,8 @@ name: Projects
 source:
   - icon: fa fa-github
     name: pibots
-    description: A self driving GoPiGo3 car navigating with a Raspberry Pi K3s cluster
+    description: My playground of self-driving GoPiGo3 car using deep learning for computer vision.
+
+  - icon: fa fa-github
+    name: scope
+    description: A simple monitoring using asyncio
