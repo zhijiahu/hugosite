@@ -1,4 +1,4 @@
-baseurl = "https://zhijiahu.netlify.app/"
+baseurl = "https://zhijiahu.sg/"
 languageCode = "en-US"
 title = "Zhijia Hu"
 # Enable comments by entering your Disqus shortname
@@ -31,7 +31,7 @@ theme = "hugo-sustain"
   name = "blog"
   weight = 100
   identifier = "blog"
-  url = "https://gateway-mf3mz3emdq-an.a.run.app"
+  url = "https://blog.zhijiahu.sg"
 
 [[menu.main]]
   name = "projects"
