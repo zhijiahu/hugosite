@@ -4,16 +4,17 @@
       {{ partial "header" . }}
       <section id="about">
         <div class="container">
-        <div class="avatar">
-          <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Responsive image">
-        </div>
-        <h3>I'm <strong>{{ .Site.Params.author }}</strong></h3>
+            <div class="avatar">
+                <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Responsive image">
+            </div>
+            <h3>I'm <strong>{{ .Site.Params.author }}</strong></h3>
 
-        <br>
-        <h4>Writing code @ Singapore</h4>
-        <h4>I'm learning <a href="https://www.pyimagesearch.com/">Deep Learning for Computer Vision</a>...having fun with my self driving robot car.</h4>
-        <h4>Happy to have a blog running on a Kubernetes (<a href="https://k3s.io/">K3s</a>) cluster of Raspberry Pi computers, in my room.</h4>
-        {{ partial "social.html" . }}
+            <br>
+            <h4>Writing code @ Singapore</h4>
+            <h4>I'm learning <a href="https://www.pyimagesearch.com/" target="_blank">Deep Learning for Computer Vision</a>...having fun with my self driving robot car. Now I'm also <a href="https://openfaas.gumroad.com/l/everyday-golang" target="_blank">learning GO</a>! Happy to have a blog running on a Raspberry Pi 4, hooked up in a Kubernetes (<a href="https://k3s.io/" target="_blank">K3s</a>) cluster, in my room.</h4>
+            <br>
+            <img style="max-width:100%;" src="https://s3-ap-southeast-1.amazonaws.com/ghost-zhijiahu/2021/05/raspi-cluster.jpeg" loading="lazy" />
+            {{ partial "social.html" . }}
         </div>
       </section>
     </div>
