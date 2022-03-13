@@ -3,7 +3,3 @@ source:
   - icon: fa fa-github
     name: pibots
     description: My playground of self-driving GoPiGo3 car using deep learning for computer vision.
-
-  - icon: fa fa-github
-    name: scope
-    description: A simple monitoring using asyncio
