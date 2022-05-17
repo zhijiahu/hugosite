@@ -1,4 +1,4 @@
-baseurl = "https://zhijiahu.sg/"
+baseurl = "https://zhijiahu.dev/"
 languageCode = "en-US"
 title = "Zhijia Hu"
 # Enable comments by entering your Disqus shortname
@@ -31,10 +31,10 @@ theme = "hugo-sustain"
   name = "blog"
   weight = 100
   identifier = "blog"
-  url = "https://blog.zhijiahu.sg"
+  url = "https://blog.zhijiahu.dev"
 
 [[menu.main]]
   name = "projects"
   identifier = "projects"
-  weight = 200
+  weight = 100
   url = "/projects/"
