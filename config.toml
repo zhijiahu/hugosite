@@ -22,16 +22,14 @@ theme = "hugo-sustain"
 [params.social]
   Github        = "zhijiahu"
   Email         = "z.jia.hu@gmail.com"
-  Twitter       = "zjiahu"
   LinkedIn      = "zhijiahu"
-  Medium        = "zhijiahu"
 
 ## Main Menu
 [[menu.main]]
   name = "blog"
   weight = 100
   identifier = "blog"
-  url = "https://blog.zhijiahu.dev"
+  url = "https://blog-zhijiahu.fly.dev/"
 
 [[menu.main]]
   name = "projects"
